@@ -7,55 +7,59 @@
 		<title>Mega Muscle Fitness</title>
 	</head>
 	<body>
-		<div class="header">
-			<h1> Create a Goal or Insert a Record</h1>
-		</div>
+		
 	<body>
-		<div >
-			<br>
-			<br>
-			<br>
-			<label class="inputlbl">Type of Exercise: </label>
-			<br>
-			<br>
-			<br>
-			<br>
-			<form id="ExerciseType">
-				<input type='radio' id='RunningType' name='exercises' value='RunningType' class="userinput">
-				<label class="inputlbl">Running</label>
+		<div class="goalcreate">	
+			<div class="header">
+				<h1> Create a Goal or Insert a Record</h1>
+			</div>
+			<div>
 				<br>
 				<br>
 				<br>
-				<input type='radio' id='SwimmingType' name='exercises' value='SwimmingType' class="userinput">
-				<label class="inputlbl">Swimming</label>
+				<label class="inputlbl">Type of Exercise: </label>
 				<br>
 				<br>
 				<br>
-				<input type='radio' id='WeightliftingType' name="exercises" value='WeightliftingType' class="userinput">
-				<label class="inputlbl">Weightlifting</label>
-			</form>
-			<br>
-			<br>
-			<br>
-			<br>
-			<label class="inputlbl">Description: </label>
-			<input type='text' id='desc' class="userinput">
-			<br>
-			<br>
-			<label class="inputlbl">Duration (min): </label>
-			<input type='text' id='duration' class="userinput">
-			<br>
-			<br>
-			<label class="inputlbl">Date: </label>
-			<input type='date' id='date' class="userinput">
-			<br>
-			<br>
-			<button id='CREATEGOAL'>ENTER</button>
-			<br>
-			<a href='/CurrentGoals_recordbook.html'><button id="loggingIN"> Current Goals</button> </a>
-			<br>
-			<a href='/Home.html'><button id='loggingIN'>Home</button></a>
+				<br>
+				<form id="ExerciseType">
+					<input type='radio' id='RunningType' name='exercises' value='RunningType' class="userinput">
+					<label class="inputlbl">Running</label>
+					<br>
+					<br>
+					<br>
+					<input type='radio' id='SwimmingType' name='exercises' value='SwimmingType' class="userinput">
+					<label class="inputlbl">Swimming</label>
+					<br>
+					<br>
+					<br>
+					<input type='radio' id='WeightliftingType' name="exercises" value='WeightliftingType' class="userinput">
+					<label class="inputlbl">Weightlifting</label>
+				</form>
+				<br>
+				<br>
+				<br>
+				<br>
+				<label class="inputlbl">Description: </label>
+				<input type='text' id='desc' class="userinput">
+				<br>
+				<br>
+				<label class="inputlbl">Duration (min): </label>
+				<input type='text' id='duration' class="userinput">
+				<br>
+				<br>
+				<label class="inputlbl">Date: </label>
+				<input type='date' id='date' class="userinput">
+				<br>
+				<br>
+				<button id='CREATEGOAL'>Submit</button>
+				<br>
+				<a href='/CurrentGoals_recordbook.html'><button id="loggingIN"> Current Goals</button> </a>
+				<br>
+				<a href='/Home.html'><button id='loggingIN'>Home</button></a>
+			</div>
 		</div>
+		
 	</body>
 	<script type='module' src="/CreateGoals.js" charset="utf-8"></script>
 </html>
