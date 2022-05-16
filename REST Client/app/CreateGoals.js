@@ -1,3 +1,5 @@
+import { Account } from '/Account.js'
+
 document.getElementById('CREATEGOAL').addEventListener('click', function (event) {
 	console.log('The Create button was clicked...')
 
