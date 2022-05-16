@@ -12,7 +12,6 @@
 		</div>
 	<body>
 		<div >
-			
 			<br>
 			<br>
 			<br>
@@ -21,18 +20,20 @@
 			<br>
 			<br>
 			<br>
-			<input type='radio' id='Type' name='exercises' class="userinput">
-			<label class="inputlbl">Running</label>
-			<br>
-			<br>
-			<br>
-			<input type='radio' id='Type' name='exercises' class="userinput">
-			<label class="inputlbl">Swimming</label>
-			<br>
-			<br>
-			<br>
-			<input type='radio' id='Type' name="exercises" class="userinput">
-			<label class="inputlbl">Weightlifting</label>
+			<form id="ExerciseType">
+				<input type='radio' id='RunningType' name='exercises' value='RunningType' class="userinput">
+				<label class="inputlbl">Running</label>
+				<br>
+				<br>
+				<br>
+				<input type='radio' id='SwimmingType' name='exercises' value='SwimmingType' class="userinput">
+				<label class="inputlbl">Swimming</label>
+				<br>
+				<br>
+				<br>
+				<input type='radio' id='WeightliftingType' name="exercises" value='WeightliftingType' class="userinput">
+				<label class="inputlbl">Weightlifting</label>
+			</form>
 			<br>
 			<br>
 			<br>
@@ -41,12 +42,12 @@
 			<input type='text' id='desc' class="userinput">
 			<br>
 			<br>
-			<label class="inputlbl">Duration: </label>
+			<label class="inputlbl">Duration (min): </label>
 			<input type='text' id='duration' class="userinput">
 			<br>
 			<br>
 			<label class="inputlbl">Date: </label>
-			<input type='date' id='dob' class="userinput">
+			<input type='date' id='date' class="userinput">
 			<br>
 			<br>
 			<button id='CREATEGOAL'>ENTER</button>
